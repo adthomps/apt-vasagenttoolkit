@@ -1,0 +1,24 @@
+{
+  "name": "visa-acceptance-agent-toolkit-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@visaacceptance/agent-toolkit": "^0.1.0",
+    "@ai-sdk/openai": "^0.0.19",
+    "ai": "^3.2.32",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.4.5"
+  }
+}
