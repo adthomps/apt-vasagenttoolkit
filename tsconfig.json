@@ -15,7 +15,6 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "noEmit": true
-=======
     "target": "es2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": false,
