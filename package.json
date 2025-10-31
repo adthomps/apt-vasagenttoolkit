@@ -2,11 +2,15 @@
   "name": "visa-acceptance-agent-vercel-starter",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@9.7.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "@ai-sdk/openai": "^0.0.46",

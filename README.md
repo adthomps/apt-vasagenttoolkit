@@ -17,6 +17,15 @@ cp .env.example .env.local
 pnpm dev
 ```
 
+## Environment Variables
+
+Set the following values locally (for `.env.local`) and in your Vercel project:
+
+- `VISA_ACCEPTANCE_MERCHANT_ID`
+- `VISA_ACCEPTANCE_API_KEY_ID`
+- `VISA_ACCEPTANCE_SECRET_KEY`
+- `OPENAI_API_KEY`
+
 Open [http://localhost:3000](http://localhost:3000) and ask:
 
 > Create an invoice for $200 for John Doe [john@example.com](mailto:john@example.com), due in 14 days, then email it.
